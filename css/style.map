@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass",
+		"../sass/base/_variables.sass",
+		"../sass/base/_mixins.sass",
+		"../sass/blocks/_promo.sass",
+		"../sass/blocks/_header.sass"
+	],
+	"sourcesContent": [
+		"@import 'base/variables';\n@import 'base/mixins';\n@import 'blocks/promo';\n@import 'blocks/header';\n* {\n    font-family: \"Museo Sans\",sans-serif; }\n\n.container {\n    max-width: 950px;\n    margin: 0 auto; }\n",
+		"",
+		"",
+		"\n.promo {\n    min-height: 650px;\n    padding: 21px 0 93px 0;\n    background: url(../../img/top_bg.jpg) center (center/cover) no-repeat; }\n",
+		".header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n\t&__logo {\n\t\twidth: 250px;\n\t\timg {\n\t\t\twidth: 20%; } } }\n"
+	],
+	"names": [],
+	"mappings": ";AGCA,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,aAAa;EACtB,UAAU,EAAE,yBAAyB,CAAC,MAAM,CAAC,YAAc,CAAC,SAAS;CAAG;;;ACJ5E,AAAA,OAAO,CAAC;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CAIA;;;AAHlB,AAAD,aAAO,CAAC;EACP,KAAK,EAAE,KAAK;CAEI;;;AAHhB,AAEA,aAFM,CAEN,GAAG,CAAC;EACH,KAAK,EAAE,GAAG;CAAG;;;AJHhB,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,uBAAuB;CAAG;;;AAE3C,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;CAAG"
+}
